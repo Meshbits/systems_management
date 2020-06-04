@@ -25,9 +25,9 @@ git fetch jl777 dev
 git merge jl777/dev
 
 # Merge changes from komodoplatform
-git fetch komodoplatform dev
-git merge komodoplatform/dev
+git fetch komodoplatform master
+git merge komodoplatform/,aster
 
 # Scenario: During merge conflict, grab FILENAME[s] from a different origin
-git checkout komodoplatform/dev FILENAME[s]
+git checkout komodoplatform/master FILENAME[s]
 ```
