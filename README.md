@@ -26,7 +26,7 @@ git merge jl777/dev
 
 # Merge changes from komodoplatform
 git fetch komodoplatform master
-git merge komodoplatform/,aster
+git merge komodoplatform/master
 
 # Scenario: During merge conflict, grab FILENAME[s] from a different origin
 git checkout komodoplatform/master FILENAME[s]
